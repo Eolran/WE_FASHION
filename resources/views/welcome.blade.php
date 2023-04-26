@@ -9,6 +9,8 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+        <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('/css/welcome.css') }}" rel="stylesheet">
 
     </head>
     <body class="antialiased">
@@ -16,7 +18,20 @@
     @include('components.header') 
 
     <main>
-        test
+        <div class="card-products">
+            @foreach ($products as $product)
+                <a href="product/{{$product->id}}">
+                    <div class="card-product">
+                        <img src="" alt="thumbnailImg">
+                        <div class="card-text">
+                            <h1>{{$product->product_name}}</h1>
+                            <p>Catégories</p>
+                            <p>{{$product->product_price}} €</p>
+                        </div>
+                    </div>
+                </a>
+            @endforeach
+        </div>
     </main>
 
     @include('components.footer') 

@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.card-products a {
+    width: 20%;
+}
+
+.card-products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-product {
+    background-color: whitesmoke;
+    box-shadow: 10px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    border-radius: 15px;
+}
+
+.card-product img {
+    border-radius: 15px;
+}
+
+.card-product .card-text {
+    padding: 0.5em;
+}
