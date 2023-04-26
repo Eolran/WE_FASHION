@@ -20,4 +20,16 @@ class ProductController extends Controller
             
         ]);
     }
+
+    public function list(): View
+    {
+        // print_r(Product::findOrFail($id));
+        // die;
+        // $product = Product::select(['id'])->where("id", $id)->first();
+        $products = Product::all();
+        return view('welcome', [
+            'products' => $products,
+            
+        ]);
+    }
 }
