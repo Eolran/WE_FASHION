@@ -5,7 +5,7 @@
     <span class="brand" href="#">WE FASHION</span>
     <nav class="nav">
       <button class="nav__toggle" aria-expanded="false" type="button">
-        Catégories
+        Menu
       </button>
       <ul class="nav__wrapper">
         <li style="display:flex" class="nav__item">

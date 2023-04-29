@@ -11,11 +11,19 @@
 
         <div class="row">
             <ul>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">Our Services</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Career</a></li>
+                <li><a href="#">Mention légales</a></li>
+                <li><a href="#">Presse</a></li>
+                <li><a href="#">Fabrication</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Contactez nous</a></li>
+                <li><a href="#">Livraisons et retours</a></li>
+                <li><a href="#">Conditions de vente</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Newsletter</a></li>
             </ul>
         </div>
     </div>

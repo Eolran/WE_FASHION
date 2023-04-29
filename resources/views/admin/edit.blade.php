@@ -30,11 +30,11 @@
             <textarea placeholder="Description produit" name="desc" value="{{$product->product_description}}"></textarea>
             <input placeholder="Prix" name="price" value="{{$product->product_price}}">
             <!-- upload -->
-            <select>
+            <select name="published">
                 <option value="0">Non publié</option>
                 <option value="1">Publié</option>
             </select>
-            <input placeholder="% de solde" name="state">
+            <input placeholder="% de solde" name="state" value="{{$product->product_state}}">
             <button type="submit" value="Submit">Enregistrer</button>
         </form>
         

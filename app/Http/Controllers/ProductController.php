@@ -73,6 +73,7 @@ class ProductController extends Controller
         $product->product_description = $request->input('desc');
         $product->product_price = $request->input('price');
         $product->product_state = $request->input('state');
+        $product->product_published = $request->input('published');
         $product->update();
         return redirect("admin");
     }

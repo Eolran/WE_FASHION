@@ -19,7 +19,7 @@ return new class extends Migration
             $table->decimal("product_price", 6,2);
             $table->boolean("product_published");
             $table->integer("product_state");
-            $table->integer("product_referenceId");
+            $table->bigInteger("product_referenceId");
         });
     }
 

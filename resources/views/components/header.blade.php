@@ -6,7 +6,7 @@
     
     <nav class="nav">
       <button class="nav__toggle" aria-expanded="false" type="button">
-        Catégories
+        Menu
       </button>
       <ul class="nav__wrapper">
         <li class="nav__item"><a href="#">Homme</a></li>

@@ -27,7 +27,7 @@
             <textarea placeholder="Description produit" name="desc" value=""></textarea>
             <input placeholder="Prix" name="price" value="">
             <!-- upload -->
-            <select>
+            <select name="published">
                 <option value="0">Non publié</option>
                 <option value="1">Publié</option>
             </select>

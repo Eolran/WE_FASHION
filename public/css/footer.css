@@ -4,15 +4,13 @@
     font-family: 'Play', sans-serif;
     text-align:center;
     position: absolute;
+    bottom: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-
     }
     
     .footer .row{
     width:100%;
-    margin:1% 0%;
     padding:0.6% 0%;
     color:gray;
     font-size:0.8em;
@@ -27,6 +25,7 @@
     .footer .row a:hover{
     color:#fff;
     }
+    
     
     .footer .row ul li{
     display:inline-block;
