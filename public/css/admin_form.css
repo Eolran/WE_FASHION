@@ -1,0 +1,48 @@
+main {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+    border-radius: 15px;
+    background-color: white;
+    width: fit-content;
+}
+
+input {
+    margin-bottom: 2em;
+    padding: 10px;
+    height: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+textarea {
+    margin-bottom: 2em;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    min-height: 25px;
+}
+
+select {
+    margin-bottom: 2em;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    min-height: 25px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 40px;
+    background-color: greenyellow;
+    border: 0px;
+    cursor: pointer;
+}

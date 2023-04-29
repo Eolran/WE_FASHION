@@ -82,7 +82,7 @@ class ProductController extends Controller
         if (Auth::user() == null) {
             return redirect(route('auth.login'));
         } else {
-            return view('admin.add');
+            return view('admin.create');
         }
     }
     public function createAdmin(Request $request)
@@ -93,7 +93,7 @@ class ProductController extends Controller
         $product->product_price = $request->input('price');
         $product->product_state = $request->input('state');
         $product->product_published = $request->input('published');
-        $product->product_referenceId = rand(16, 16);
+        $product->product_referenceId = rand(1000000000000000, 9999999999999999);
         $product->save();
 
         return redirect("admin");

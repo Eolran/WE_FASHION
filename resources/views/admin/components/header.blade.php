@@ -3,19 +3,21 @@
 <header class="site-header">
   <div class="wrapper site-header__wrapper">
     <span class="brand" href="#">WE FASHION</span>
-    <form action="{{route('auth.logout')}}" method="POST">
-      @method('delete')
-      @csrf
-      <button type="submit">Se déconnecter</button>
-    </form>
-    <a href="/">Accueil</a>
     <nav class="nav">
       <button class="nav__toggle" aria-expanded="false" type="button">
         Catégories
       </button>
       <ul class="nav__wrapper">
+        <li style="display:flex" class="nav__item">
+          <form style="display:flex" action="{{route('auth.logout')}}" method="POST">
+            @method('delete')
+            @csrf
+            <button type="submit">Se déconnecter</button>
+          </form>
+        </li>
         <li class="nav__item"><a href="#">Produits</a></li>
         <li class="nav__item"><a href="#">Catégories</a></li>
+        <li class="nav__item"><a href="/">Accueil</a></li>
       </ul>
     </nav>
   </div>

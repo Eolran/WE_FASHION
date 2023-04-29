@@ -24,7 +24,7 @@ class ProductFactory extends Factory
             // 'product_image' => "",
             'product_published' => fake()->boolean(),
             'product_state' => rand(0, 100),
-            'product_referenceId' => rand()+fake()->randomDigitNotZero(),
+            'product_referenceId' => rand(1000000000000000, 9999999999999999),
         ];
 
     }

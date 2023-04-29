@@ -1,0 +1,45 @@
+table {
+    margin: auto;
+}
+
+form {
+    margin: 0;
+}
+
+td {
+    padding: 5px;
+
+}
+
+tr {
+    border-bottom: 1px solid black;
+}
+
+table a button {
+    background-color: rgb(238, 167, 15);
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+table form button {
+    background-color: rgb(238, 15, 15);
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+li form {
+    display:flex;
+    padding: 10px;
+
+}
+
+li button {
+    background-color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+}

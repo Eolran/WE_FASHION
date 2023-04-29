@@ -29,4 +29,5 @@ main {
 
 .card-product .card-text {
     padding: 0.5em;
+    height: 100%;
 }

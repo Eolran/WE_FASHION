@@ -5,12 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('/css/admin_form.css') }}" rel="stylesheet">
         <title>Document</title>
     </head>
     <body>
     @include('admin.components.header') 
 
     <main>
+        <h1>Ajout d'un Produit au catalogue</h1>
             <!-- 'product_name',
             'product_description',
             'product_price',
@@ -25,11 +27,10 @@
             <textarea placeholder="Description produit" name="desc" value=""></textarea>
             <input placeholder="Prix" name="price" value="">
             <!-- upload -->
-            <!-- <select>
-                <option>Non publié</option>
-                <option>Publié</option>
-            </select> -->
-            <input placeholder="published" name="published">
+            <select>
+                <option value="0">Non publié</option>
+                <option value="1">Publié</option>
+            </select>
             <input placeholder="% de réduction" name="state">
 
             <button type="submit" value="Submit">Ajouter</button>

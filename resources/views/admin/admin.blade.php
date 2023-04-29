@@ -1,4 +1,5 @@
 <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+<link href="{{ asset('/css/admin.css') }}" rel="stylesheet">
 
 @include('admin.components.header') 
 
@@ -26,13 +27,12 @@
                 </td>
             </tr>
         @endforeach
-        <tr>
-            <td colspan="3">
-                <a href="admin/add"><button>Créer un produit</button></a>
-            </td>
+        <tr colspan="3">
+            <td><a href="admin/add"><button style="background-color: rgb(147, 247, 155);">Créer un produit</button></a></td>
         </tr>
     </tbody>
 </table>
+
 </main>
 
 @include('admin.components.footer') 

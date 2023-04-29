@@ -31,9 +31,7 @@
         <button>Acheter</button>
     </div>
 
-    
 </main>
-TEST PRODUCT WITH ID {{$product->id}}
 
 @include('components.footer') 
 </body>
