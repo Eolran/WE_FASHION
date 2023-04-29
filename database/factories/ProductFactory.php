@@ -19,12 +19,12 @@ class ProductFactory extends Factory
 
         return [
             'product_name' => fake()->name(),
-            'product_description' => 'Test product_description',
-            'product_price' => "54",
-            //'product_image' => 'Test Product',
-            'product_published' => 1,
-            'product_state' => 0,
-            'product_referenceId' => "15684513",
+            'product_description' => fake()->colorName(),
+            'product_price' => rand(15, 80),
+            // 'product_image' => "",
+            'product_published' => fake()->boolean(),
+            'product_state' => rand(0, 100),
+            'product_referenceId' => rand()+fake()->randomDigitNotZero(),
         ];
 
     }

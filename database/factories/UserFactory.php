@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Hash;
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\User>
  */
-class UsersFactory extends Factory
+class UserFactory extends Factory
 {
     /**
      * Define the model's default state.

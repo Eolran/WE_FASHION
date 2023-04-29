@@ -21,7 +21,12 @@ class ProductController extends Controller
 
     public function list(): View
     {
-        $products = Product::all();
+        $products = Product::with("categories")->get();
+        
+        // dd(Product::findOrFail(1)->categories);
+        // foreach ($products as $product) {
+        //     dd($product->categories());
+        // }
         return view('welcome', [
             'products' => $products,
 

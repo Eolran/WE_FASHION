@@ -25,7 +25,9 @@
                         <img src="" alt="thumbnailImg">
                         <div class="card-text">
                             <h1>{{$product->product_name}}</h1>
-                            <p>Catégories</p>
+                            @foreach($product->categories as $category)
+                            <p>{{$category->category_name}}</p>
+                            @endforeach
                             <p>{{$product->product_price}} €</p>
                         </div>
                     </div>
