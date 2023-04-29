@@ -20,7 +20,6 @@ How to install the WE_FASHION Project
 
   //Generate your .env file with:
   cp .env.example .env
-  php artisan key:generate
 
   //Create data for MySQL Database (Be sure your .env is correctly configured)
   php artisan migrate:fresh
