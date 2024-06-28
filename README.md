@@ -6,7 +6,7 @@ A brief description of what this project does and who it's for
 
 ## Authors
 
-- [Yoann Legrand](https://www.github.com/Eolran)
+- [Eolran](https://www.github.com/Eolran)
 
 
 ## Installation
